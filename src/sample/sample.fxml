@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="295.0" prefWidth="624.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="114.0" layoutY="29.0" prefHeight="54.0" prefWidth="392.0" text="Number Guesser">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="111.0" text="Guess a number between 1 &amp; 10">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Spinner fx:id="spinner" layoutX="132.0" layoutY="181.0" prefHeight="49.0" prefWidth="238.0" style="-fx-border-radius: 10;" />
+      <Button fx:id="submit" layoutX="384.0" layoutY="181.0" mnemonicParsing="false" onAction="#check_win" prefHeight="49.0" prefWidth="85.0" style="-fx-border-radius: 5;" text="Submit">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
